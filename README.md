@@ -8,6 +8,6 @@
 <li>React.js <img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="35px" height="35px"></li>
 <li>Tailwind CSS <img src="https://github.com/get-icon/geticon/raw/master/icons/tailwindcss-icon.svg" alt="Tailwind CSS" width="35px" height="35px"></li>
 <li>Vite <img src="https://github.com/get-icon/geticon/raw/master/icons/vite.svg" alt="Vite" width="35px" height="35px"></li>
-<li>Rapid API</li>
 <li>Redux toolkit <img src="https://github.com/get-icon/geticon/raw/master/icons/redux.svg" alt="redux" width="35px" height="35px"></li>
+<li>Rapid API</li>
 </ul>
