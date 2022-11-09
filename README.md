@@ -21,5 +21,5 @@
 <img src="https://res.cloudinary.com/dhe2rvexr/image/upload/v1667991704/Spozam/Screenshot_2022-11-09_at_12-58-21_Lyriks_spfgk2.png" alt="artist-page">
 <hr>
 <img src="https://res.cloudinary.com/dhe2rvexr/image/upload/v1667991704/Spozam/spozam.netlify.app__iPhone_6_7_8_2_t2gy1u.png" alt="homepage responsive" align="left" width="200" heigth="400">
-<img src="https://res.cloudinary.com/dhe2rvexr/image/upload/v1667991707/Spozam/spozam.netlify.app__iPhone_6_7_8_1_zyfunv.png" alt="sidebar responsive" align="center" width="200" heigth="400">
-<img src="https://res.cloudinary.com/dhe2rvexr/image/upload/v1667991704/Spozam/spozam.netlify.app__iPhone_6_7_8_2_t2gy1u.png" alt="topcharts responsive" align="right" width="200" heigth="400">
+<img src="https://res.cloudinary.com/dhe2rvexr/image/upload/v1667991707/Spozam/spozam.netlify.app__iPhone_6_7_8_1_zyfunv.png" alt="sidebar responsive" align="left" width="200" heigth="400">
+<img src="https://res.cloudinary.com/dhe2rvexr/image/upload/v1667991704/Spozam/spozam.netlify.app__iPhone_6_7_8_2_t2gy1u.png" alt="topcharts responsive" align="center" width="200" heigth="400">
