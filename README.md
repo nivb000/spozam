@@ -1,7 +1,7 @@
 <h1 align="center">Spozam (Spotify Clone)</h1>
 
 <h3>🔵 Spozam is an Spotify clone app that work with Shazam Core API</h3>
-<h3>🔵 Fully Responsive/h3>
+<h3>🔵 Fully Responsive</h3>
 <h4>🔵 Project is live <a href="https://spozam.netlify.app/">here</a></h4>
 
 <h3>🔵Tech Stack</h3>
