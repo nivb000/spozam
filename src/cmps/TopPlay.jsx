@@ -9,8 +9,6 @@ import { useGetTopChartsQuery } from '../services/shazamCore.service';
 import 'swiper/css';
 import 'swiper/css/free-mode'
 
-
-
 const TopChartsPreview = ({ song, idx, isPlaying, activeSong, handlePauseClick, handlePlayClick }) => (
   <div className='w-full flex flex-row items-center hover:bg-[#4c426e] py-2 p-4 rounded-lg cursor-pointer mb-2'>
     <h3 className='font-bold text-base text-white mr-3'>{idx + 1}.</h3>
@@ -36,9 +34,9 @@ export const TopPlay = () => {
   const divRef = useRef(null)
   const topPlays = songs?.slice(0, 5)
 
-  useEffect(() => {
-    divRef.current.scrollIntoView({ behavior: 'smooth' })
-  })
+  // useEffect(() => {
+  //   divRef.current.scrollIntoView({ behavior: 'smooth' })
+  // })
 
 
   const handlePauseClick = () => {
