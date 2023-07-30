@@ -11,6 +11,8 @@ export const AroundYou = () => {
     const { activeSong, isPlaying } = useSelector(state => state.player)
     const {data:songs, isFetching, error} = useGetSongsByCountryQuery(country)
 
+    console.log('trying with', import.meta.env.VITE_GEO_API_KEY)
+
     useEffect(() => {
       axios.get(`https://geo.ipify.org/api/v2/country?apiKey=${import.meta.env.VITE_GEO_API_KEY}`)
         .then(res => setCountry(res?.data?.location.country))
