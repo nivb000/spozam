@@ -18,8 +18,8 @@ const playerSlice = createSlice({
 
       if (action.payload?.songs?.tracks?.hits) {
         state.currentSongs = action.payload.songs.tracks.hits;
-      } else if (action.payload?.songs?.properties) {
-        state.currentSongs = action.payload?.songs?.tracks;
+      } else if (action.payload?.songs?.data) {
+        state.currentSongs = action.payload?.songs?.data;
       } else {
         state.currentSongs = action.payload.songs;
       }

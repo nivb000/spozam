@@ -9,7 +9,7 @@ export const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseC
     <div className="flex-1 flex flex-row justify-between items-center">
       <img
         className="w-20 h-20 rounded-lg"
-        src={artistId ? song?.attributes?.artwork?.url.replace('{w}', '125').replace('{h}', '125') : song?.images?.coverart}
+        src={song?.attributes?.artwork?.url.replace('{w}', '125').replace('{h}', '125')}
         alt={song?.title}
       />
       <div className="flex-1 flex flex-col justify-center mx-3">
@@ -25,20 +25,16 @@ export const SongBar = ({ song, i, artistId, isPlaying, activeSong, handlePauseC
           </p>
         )}
         <p className="text-base text-gray-300 mt-1">
-          {artistId ? song?.attributes?.albumName : song?.subtitle}
+          {song?.attributes?.albumName}
         </p>
       </div>
     </div>
-    {!artistId
-      ? (
-        <PlayPause
-          isPlaying={isPlaying}
-          activeSong={activeSong}
-          song={song}
-          handlePause={handlePauseClick}
-          handlePlay={() => handlePlayClick(song, i)}
-        />
-      )
-      : null}
+    <PlayPause
+      isPlaying={isPlaying}
+      activeSong={activeSong}
+      song={song.attributes}
+      handlePause={handlePauseClick}
+      handlePlay={() => handlePlayClick(song.attributes, i)}
+    />
   </div>
-);
+)

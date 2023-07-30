@@ -1,4 +1,3 @@
-import axios from 'axios'
 import { useSelector } from 'react-redux'
 import { Error, Loader, SongPreview } from '../cmps'
 import { useGetTopChartsQuery } from '../services/shazamCore.service'
@@ -18,7 +17,7 @@ export const TopCharts = () => {
        </h2>
 
        <div className='flex flex-wrap sm:justify-start justify-center gap-8'>
-        {songs?.map((song,idx) => 
+        {songs?.tracks?.map((song,idx) => 
             <SongPreview 
             key={song.key} 
             song={song} 

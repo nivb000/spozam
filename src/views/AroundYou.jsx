@@ -12,7 +12,7 @@ export const AroundYou = () => {
     const {data:songs, isFetching, error} = useGetSongsByCountryQuery(country)
 
     useEffect(() => {
-      axios.get(`https://geo.ipify.org/api/v2/country?apiKey=at_eoHkyFgh0vfMYTCfHvPHaPgFBxr8Y`)
+      axios.get(`https://geo.ipify.org/api/v2/country?apiKey=${import.meta.env.VITE_GEO_API_KEY}`)
         .then(res => setCountry(res?.data?.location.country))
         .catch(err => console.log(err))
         .finally(() => setLoading(false))
@@ -30,7 +30,7 @@ export const AroundYou = () => {
        </h2>
 
        <div className='flex flex-wrap sm:justify-start justify-center gap-8'>
-        {songs?.map((song,idx) => 
+        {songs?.tracks?.map((song,idx) => 
             <SongPreview 
             key={song.key} 
             song={song} 

@@ -32,7 +32,7 @@ export const TopPlay = () => {
   const { activeSong, isPlaying } = useSelector(state => state.player)
   const { data:songs } = useGetTopChartsQuery()
   const divRef = useRef(null)
-  const topPlays = songs?.slice(0, 5)
+  const topPlays = songs?.tracks?.slice(0, 5)
 
   // useEffect(() => {
   //   divRef.current.scrollIntoView({ behavior: 'smooth' })

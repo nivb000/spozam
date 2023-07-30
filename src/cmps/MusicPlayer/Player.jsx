@@ -18,11 +18,11 @@ const Player = ({ activeSong, isPlaying, volume, seekTime, onEnded, onTimeUpdate
   // updates audio element only on seekTime change (and not on each rerender):
   useEffect(() => {
     ref.current.currentTime = seekTime;
-  }, [seekTime]);
+  }, [seekTime])
 
   return (
     <audio
-      src={activeSong?.hub?.actions[1]?.uri}
+      src={activeSong?.hub?.actions[1]?.uri || activeSong?.previews[0]?.url}
       ref={ref}
       loop={repeat}
       onEnded={onEnded}
