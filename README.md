@@ -1,6 +1,8 @@
 <h1 align="center">Spozam (Spotify Clone)</h1>
 
-<h3>🔵 Spozam is an Spotify clone app that work with Shazam Core API</h3>
+<h3>🔵 Spozam is an Spotify clone app where you can listen for a music samples</h3>
+<h3>🔵 Including search functionality, Artist page and Song page </h3>
+<h3>🔵 Work with Shazam API and Geoapify API for music around you</h3>
 <h3>🔵 Fully Responsive</h3>
 <h3>🔵 Project is live <a href="https://spozam.netlify.app/">here</a></h3>
 
